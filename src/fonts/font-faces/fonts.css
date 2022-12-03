@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "MKA";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/src/fonts/font-faces/Ubuntu/Ubuntu-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MKA";
+  font-style: normal;
+  font-weight: 600;
+  src: url(/src/fonts/font-faces/Ubuntu/Ubuntu-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MKA";
+  font-style: italic;
+  font-weight: 600;
+  src: url(/src/fonts/font-faces/Ubuntu/Ubuntu-MediumItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MKA";
+  font-style: normal;
+  font-weight: 800;
+  src: url(/src/fonts/font-faces/Ubuntu/Ubuntu-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MKA Variable";
+  font-style: normal;
+  font-weight: 100 1000;
+  src: url(/src/fonts/font-faces/Raleway/Raleway-VariableFont_wght.ttf)
+    format("truetype-variations");
+}
+
+@font-face {
+  font-family: "MKA Variable";
+  font-style: italic;
+  font-weight: 100 1000;
+  src: url(/src/fonts/font-faces/Raleway/Raleway-Italic-VariableFont_wght.ttf)
+    format("truetype");
+}
