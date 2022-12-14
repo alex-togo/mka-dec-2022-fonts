@@ -1,35 +1,47 @@
 @import url(/src/fonts/font-faces/fonts.css);
 
 p {
-    font-family: "MKA";
-  }
-  
-  .p2 {
-    font-style: italic;
-  }
-  
-  .p3 {
-    font-weight: 600;
-  }
-  
-  .p4 {
-    font-weight: 800;
-  }
-  
-  /* Variable Fonts let us choose very specific font-weights, 
+  font-family: "MKA";
+  font-size: 24px;
+}
+
+.p2 {
+  font-style: italic;
+}
+
+.p3 {
+  font-weight: 600;
+}
+
+.p4 {
+  font-weight: 700;
+}
+
+.heading {
+  color: teal;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: #1c315e;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+/* Variable Fonts let us choose very specific font-weights, 
   and automatically chooses the font */
-  .variable {
-    font-family: "MKA Variable";
-  }
-  
-  .p5 {
-    font-weight: 600;
-  }
-  
-  .p6 {
-    font-weight: 649;
-  }
-  
-  .p7 {
-    font-weight: 700;
-  }
+.variable {
+  font-family: "MKA Variable";
+}
+
+.p5 {
+  font-weight: 600;
+}
+
+.p6 {
+  font-weight: 649;
+}
+
+.p7 {
+  font-weight: 700;
+}

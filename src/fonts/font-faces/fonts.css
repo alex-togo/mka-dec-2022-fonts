@@ -16,13 +16,13 @@
   font-family: "MKA";
   font-style: italic;
   font-weight: 600;
-  src: url(/src/fonts/font-faces/Ubuntu/Ubuntu-MediumItalic.ttf) format("truetype");
+  src: url(/src/fonts/font-faces/Ubuntu/Ubuntu-Italic.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "MKA";
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   src: url(/src/fonts/font-faces/Ubuntu/Ubuntu-Bold.ttf) format("truetype");
 }
 
@@ -31,7 +31,7 @@
   font-style: normal;
   font-weight: 100 1000;
   src: url(/src/fonts/font-faces/Raleway/Raleway-VariableFont_wght.ttf)
-    format("truetype-variations");
+    format("truetype");
 }
 
 @font-face {

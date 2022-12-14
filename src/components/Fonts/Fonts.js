@@ -10,20 +10,26 @@ const Fonts = () => {
   };
   return (
     <div className="container">
-      <h4>Hello MKA! This is an example of how to switch between fonts.</h4>
+      <h1>Hello MKA! This is an example of how to switch between fonts.</h1>
+      <p class="subtitle">Static Fonts:</p>
+      <p class="heading">Regular Ubuntu font, no changes:</p>
       <p className="p1">
         Hello MKA! This is an example of how to switch between fonts.
       </p>
+      <p class="heading">Regular Ubuntu font, Italic font-style:</p>
       <p className="p2">
         Hello MKA! This is an example of how to switch between fonts.
       </p>
+      <p class="heading">Medium Ubuntu font, 600 font-weight:</p>
       <p className="p3">
         Hello MKA! This is an example of how to switch between fonts.
       </p>
+      <p class="heading">Bold Ubuntu font, 700 font-weight:</p>
       <p className="p4">
         Hello MKA! This is an example of how to switch between fonts.
       </p>
       <br />
+      <p class="subtitle">Variable Fonts:</p>
       <p className="p5 variable">
         Hello MKA! This is an example of a variable font.
       </p>
@@ -39,7 +45,7 @@ const Fonts = () => {
         min="100"
         max="1000"
         value={sliderVal}
-        step="10"
+        step="1"
         name="Variable Font Weight"
         onChange={handleSlider}
         className="slider"
